@@ -1,5 +1,13 @@
-*{
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+*{  
+    text-decoration: none;
+    color: black;
+    font-family:'Satisfy' ;
         cursor: url('sima2.png'), pointer;
+}
+h3{
+    cursor: url("sima3.png"), auto;
 }
 .wrapper { 
     height: 100%;
@@ -9,7 +17,7 @@
     top: 0;
     bottom: 0;
     position: absolute;
-  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background: linear-gradient(124deg, #ff0000, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
   background-size: 1800% 1800%;
   
   -webkit-animation: rainbow 18s ease infinite;
@@ -37,3 +45,28 @@
       50%{background-position:100% 19%}
       100%{background-position:0% 82%}
   }
+#holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+}
+#holder h3{
+    font-size: 72px;
+    border-radius: 25px;
+    padding: 20px;
+    border: #000000 solid 10px;
+    background-color: rgba(128, 0, 0, 0.4);
+    margin-bottom: 100px;
+}
+#holder h2{
+    font-size: 46px;
+}
+#holder h4{
+    font-family: 'Trade Winds' ;
+    font-size: 34px;
+
+}
+
