@@ -7,16 +7,11 @@
     font-family:'Satisfy' ;
         cursor: url('sima2.png'), auto;
 }
-img {
-  }
-  .imgA1 {
-    z-index: 1;
-  }
-  .imgB1 {
-    z-index: 3;
-  }
-h3{
-    cursor: url("sima3.png"), auto;
+#gif{
+    position: absolute;
+  left: 0px;
+  top: 0px;
+    z-index: -1;
 }
 .wrapper { 
     height: 100%;
@@ -27,12 +22,12 @@ h3{
     bottom: 0;
     position: fixed;
   background: linear-gradient(124deg, #ff0000, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-  background-size: 500% 500%;
+  background-size: 120% 500%;
   
   -webkit-animation: rainbow 4s ease infinite;
   -z-animation: rainbow 1s ease infinite;
-  -o-animation: rainbow 2s ease infinite;
-    animation: rainbow 4s ease infinite;}
+  -o-animation: rainbow 0.2s ease infinite;
+    animation: rainbow 0.4s ease infinite;}
   
   @-webkit-keyframes rainbow {
       0%{background-position:0% 82%}
