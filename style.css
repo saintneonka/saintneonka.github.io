@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
 *{  
+    
     text-decoration: none;
     color: black;
     font-family:'Satisfy' ;
         cursor: url('sima2.png'), auto;
 }
+img {
+  }
+  .imgA1 {
+    z-index: 1;
+  }
+  .imgB1 {
+    z-index: 3;
+  }
 h3{
     cursor: url("sima3.png"), auto;
 }
@@ -72,3 +81,11 @@ h3{
 :root, body, marquee { width: 100%; height: 100%;}
 body { background: #000 }
 svg { color: #fff }
+#simuse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+}
